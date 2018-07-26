@@ -1,0 +1,104 @@
+html, body {
+    height:100%;
+    display: block;
+} 
+
+body{
+    background-image: url(../images/backgrond.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+}
+.camera{
+    text-align: center;
+    font-size: 80px;
+}
+
+img{
+    margin-left: 120px;
+    
+}
+
+.fa-camera-retro{
+    color:white;
+}
+
+h1{
+    padding: 20px 0px;
+    font-size: 55px;
+    color:white;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    margin-right: 150px;
+}
+
+.container{
+    padding-top: 25px;
+    /*background: rgba(0,0,0,0.4);*/
+    font-family: 'Fira Sans', sans-serif;
+    padding-bottom: 25px;
+    width: 700px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.5);
+}
+
+h1{
+    text-align: center;
+}
+
+h5{
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+h3{
+    color: white;;
+    font-size: 35px;
+    text-align: center;
+}
+
+h6{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid white;
+    line-height: 0.1em;
+}
+
+h6 span{
+    background:transparent; 
+    padding:0 9px;
+}
+
+form{
+    padding-top: 25px;
+    text-align: center;
+}
+
+html{
+    overflow-y: scroll;
+}
+
+.photo{
+    width: 100%;
+    width: auto;
+}
+
+.line{
+    border-color: aliceblue;
+}
+
+.btn{
+    padding-top: 8px;
+    border-radius: 5px;
+    align-content: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+html:focus { 
+    outline: none;
+}
